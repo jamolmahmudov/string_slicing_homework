@@ -6,4 +6,6 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    a = len(s)
+    return s[1::2]
+print(main('12345qwers'))

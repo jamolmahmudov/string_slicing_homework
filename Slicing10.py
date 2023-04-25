@@ -8,4 +8,5 @@ def main(s,n,k):
     Returns:
         str: answer
     """
-    return
+    return  s[n:k]
+print(main('897y3rh',4,5))

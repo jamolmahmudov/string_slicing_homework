@@ -6,4 +6,7 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+  
+
+    return s[1::3]
+print(main('1345qwer'))
